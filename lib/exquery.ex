@@ -1,6 +1,6 @@
 defmodule Exquery do
   @moduledoc """
-  Documentation for `Exquery`.
+  Documentation for `Exquery`, a basic GraphQL Extension.
   """
 
   @doc """

@@ -15,11 +15,10 @@ by adding `exquery` to your list of dependencies in `mix.exs`:
     ]
   end
 
-# Dependencies 
+# Dependencies for installation of the package(s)
 def deps do
   [
-    {:exquery, "~> 0.1.0"},
-    {:graphql, "~> 0.3"}
+    {:exquery, "~> 0.1.0"}
   ]
 end
 ```
@@ -27,9 +26,9 @@ end
 # Our first Query
 
 ```diff
-+ iex -S mix
-+ iex> GraphQL.execute(TestSchema.schema, "{greeting}")
-Output:  {:ok, %{greeting: "Hello, world!"}}
+iex -S mix
+iex> GraphQL.execute(TestSchema.schema, "{greeting}")
+Output: {:ok, %{greeting: "Hello, world!"}}
 ```
 
 Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
